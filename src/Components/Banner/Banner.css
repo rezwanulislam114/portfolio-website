@@ -1,9 +1,7 @@
 .banner {
-    /* background: url('../../images/banner-bg.jpg'); */
     background: linear-gradient(90deg, rgb(0, 5, 29), rgb(39, 39, 39));
-    /* height: 90vh; */
     width: 100%;
-    padding: 50px 0;
+    padding: 100px 0 50px;
 }
 .developer-img {
     width: 300px;
@@ -26,14 +24,6 @@
 }
 .btn-regular:hover {
     background: rgb(71, 71, 71);
-}
-.banner .btn-regular a {
-    text-decoration: none;
-    color: white;
-}
-.banner .btn-regular i {
-    color: white;
-    margin-right: 10px;
 }
 
 @media only screen and (max-width: 768px) {

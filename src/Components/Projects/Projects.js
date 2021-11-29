@@ -33,18 +33,18 @@ const Projects = () => {
                     </div>
                 </Col>
             </Row>
-            <Row data-aos="fade-up">
-                <Col xs={12} md={4}>
+            <Row>
+                <Col data-aos="fade-right" xs={12} md={4}>
                     <div className="project">
                         <img src={educepedia} alt="" />
                     </div>
                 </Col>
-                <Col xs={12} md={4}>
+                <Col data-aos="zoom-in" xs={12} md={4}>
                     <div className="project">
                         <img src={weatherCheck} alt="" />
                     </div>
                 </Col>
-                <Col xs={12} md={4}>
+                <Col data-aos="fade-left" xs={12} md={4}>
                     <div className="project">
                         <img src={arrangeConcert} alt="" />
                     </div>

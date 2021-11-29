@@ -6,10 +6,12 @@ import Services from '../../Services/Services';
 import Skills from '../../Skills/Skills';
 import Contact from '../../Contact/Contact'
 import Footer from '../../Footer/Footer';
+import LandingPage from '../../LandingPage/LandingPage';
 
 const Home = () => {
     return (
         <div>
+            <LandingPage></LandingPage>
             <Navigation></Navigation>
             <Banner></Banner>
             <Services></Services>
