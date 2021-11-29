@@ -17,6 +17,24 @@
     font-weight: bold;
     margin: 0;
 }
+.btn-regular {
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    padding: 7px 10px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn-regular:hover {
+    background: rgb(71, 71, 71);
+}
+.banner .btn-regular a {
+    text-decoration: none;
+    color: white;
+}
+.banner .btn-regular i {
+    color: white;
+    margin-right: 10px;
+}
 
 @media only screen and (max-width: 768px) {
     .banner {

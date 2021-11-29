@@ -13,6 +13,7 @@ const Navigation = () => {
                         <Nav className="me-auto">
                             <Nav.Link as={NavLink} to="/home">Home</Nav.Link>
                             <Nav.Link as={NavLink} to="/skills">Skills</Nav.Link>
+                            <Nav.Link href="https://drive.google.com/uc?export=download&id=17actcWAUKDUE7VQtl5QNR3g8jROcn6fs">Resume</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

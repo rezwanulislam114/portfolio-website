@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css';
-import developerImg from '../../images/developer-img1.jpg'
+import developerImg from '../../images/developer-img.jpeg'
 
 const Banner = () => {
     return (
@@ -16,7 +16,10 @@ const Banner = () => {
                         <small>A Web Developer | MERN Developer</small>
                         <br /> <br />
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, eveniet est quo id sit magnam mollitia optio minima quibusdam veniam minus sint dignissimos repellat laudantium ea ratione omnis cumque dolores! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste praesentium totam, tempora tenetur at officiis inventore reprehenderit deserunt esse vitae reiciendis. Necessitatibus eum obcaecati distinctio aut id consequuntur hic ipsum.</p>
-                        <a className="btn btn-secondary" href="https://drive.google.com/uc?export=download&id=17actcWAUKDUE7VQtl5QNR3g8jROcn6fs">Download Resume</a>
+                        <button className="btn-regular">
+                            <i class="fas fa-download"></i>
+                            <a href="https://drive.google.com/uc?export=download&id=17actcWAUKDUE7VQtl5QNR3g8jROcn6fs">Download Resume</a>
+                        </button>
                     </Col>
                 </Row>
             </Container>

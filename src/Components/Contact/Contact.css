@@ -1,0 +1,44 @@
+.contact {
+    margin-top: 100px;
+    background: radial-gradient(rgba(51, 51, 51, 0.884), rgba(0, 0, 0, 0.897)) ,url('../../images/contact-bg.png');
+    padding: 60px 0;
+}
+.contact form input {
+    outline: none;
+    border: none;
+    background: rgb(37, 37, 37);
+    box-shadow: 1px 1px 7px black;
+    width: 100%;
+    color: rgb(228, 228, 228);
+    padding: 7px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+.contact form textarea {
+    outline: none;
+    border: none;
+    background: rgb(37, 37, 37);
+    box-shadow: 1px 1px 7px black;
+    width: 100%;
+    color: rgb(228, 228, 228);
+    padding: 7px;
+    margin: 10px 0;
+    border-radius: 3px;
+    height: 150px;
+}
+.contact form input[type=submit]:hover {
+    background: rgb(56, 56, 56);
+}
+.media-links {
+    margin-top: 50px;
+}
+.media-links a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 30px;
+    color: gray;
+}
+.media-links a:hover {
+    color: white;
+}
