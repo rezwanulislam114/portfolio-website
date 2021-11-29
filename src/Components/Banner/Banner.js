@@ -1,17 +1,21 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Banner.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import developerImg from '../../images/developer-img.jpeg'
 
 const Banner = () => {
+    AOS.init({ duration: 1200 });
+
     return (
         <div className="banner">
             <Container>
                 <Row>
                     <Col xs={12} sm={4}>
-                        <img className="developer-img" src={developerImg} alt="" />
+                        <img data-aos="zoom-in" className="developer-img" src={developerImg} alt="" />
                     </Col>
-                    <Col xs={12} sm={8}>
+                    <Col data-aos="fade-left" xs={12} sm={8}>
                         <h1>Rezwanul Islam_</h1>
                         <small>A Web Developer | MERN Developer</small>
                         <br /> <br />

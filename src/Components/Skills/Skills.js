@@ -1,6 +1,8 @@
 import React from 'react';
 import './Skills.css'
 import { Col, Container, Row } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import html from '../../images/skills/html.png'
 import css from '../../images/skills/css.png'
 import bootstrap from '../../images/skills/bootstrap.png'
@@ -18,10 +20,12 @@ import react from '../../images/skills/react.png'
 import vscode from '../../images/skills/vscode.png'
 
 const Skills = () => {
+    AOS.init({ duration: 1200 });
+
     return (
         <Container className="skills">
-            <h1 className="title-text">My Skills</h1>
-            <Row>
+            <h1 data-aos="fade-right" className="title-text">My Skills</h1>
+            <Row data-aos="zoom-in">
                 <Col xs={6} sm={4} md={2}>
                     <div className="skill">
                         <img src={html} alt="" />
@@ -59,7 +63,7 @@ const Skills = () => {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row data-aos="zoom-in">
                 <Col xs={6} sm={4} md={2}>
                     <div className="skill">
                         <img src={node} alt="" />
@@ -97,7 +101,7 @@ const Skills = () => {
                     </div>
                 </Col>
             </Row>
-            <Row>
+            <Row data-aos="zoom-in">
                 <Col xs={6} sm={4} md={2}>
                     <div className="skill">
                         <img src={github} alt="" />

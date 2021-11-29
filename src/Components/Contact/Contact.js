@@ -1,6 +1,8 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import './Contact.css'
+import './Contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const Contact = () => {
@@ -16,12 +18,14 @@ const Contact = () => {
         e.target.reset();
     };
 
+    AOS.init({ duration: 2000 })
+
     return (
         <div className="contact">
             <Container>
-                <h1 className="title-text">Get in touch</h1>
+                <h1 data-aos="fade-right" className="title-text">Get in touch</h1>
                 <Row>
-                    <Col xs={12} md={6} className="mb-5">
+                    <Col data-aos="fade-up" xs={12} md={5} className="mb-5">
                         <p className="mb-0">
                             46/A, Road No: 3, Promy Socity <br />
                             Moynartek, Uttarkhan <br />
@@ -48,7 +52,7 @@ const Contact = () => {
                             <a href="https://github.com/rezwanulislam114"><i class="fab fa-github"></i></a>
                         </div>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col data-aos="fade-left" xs={12} md={7}>
                         <h4>Or just write me a letter here_</h4>
                         <form onSubmit={sendEmail}>
                             <input placeholder="Your Name" type="text" name="from_name" required />
