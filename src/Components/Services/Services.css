@@ -1,0 +1,43 @@
+.services-section {
+    margin-top: 100px;
+}
+.title-text {
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+    margin-bottom: 50px;
+}
+.title-text::after {
+    content: '';
+    width: 120px;
+    height: 4px;
+    background: blueviolet;
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+}
+.service {
+    background: #3b3d3f;
+    box-shadow: 2px 2px 5px rgb(97, 97, 97);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 13px 0;
+}
+.service:hover {
+    background: #444444;
+}
+.service img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .service {
+        margin: 12px 0;
+    }
+    .title-text {
+        margin-bottom: 20px;
+    }
+    .title-text::after {
+        width: 80px;
+    }
+}

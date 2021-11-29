@@ -1,0 +1,24 @@
+.projects {
+    margin-top: 100px;
+}
+.project {
+    margin: 20px 0;
+    overflow: hidden;
+    width: 380px;
+}
+.project img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: .3s;
+    transform: scale(1.1);
+}
+.project:hover img {
+    transform: scale(1.3);
+}
+
+@media only screen and (max-width: 768px) {
+    .project {
+        width: 310px;
+    }
+}
