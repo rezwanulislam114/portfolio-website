@@ -94,7 +94,7 @@ const Projects = () => {
                         <img className="project-img" src={weatherCheck} alt="" />
                         <div className="project-info">
                             <h3>GarageZero</h3>
-                            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, id itaque, repellat excepturi quidem asperiores</p>
+                            <p className="text-center">Lorem ipsum dolor sit am</p>
                             <div className="project-link">
                                 <a href="/">Live Preview</a>
                                 <a href="/">Client-side Code</a>
