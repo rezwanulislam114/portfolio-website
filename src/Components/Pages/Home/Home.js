@@ -11,8 +11,8 @@ import LandingPage from '../../LandingPage/LandingPage';
 const Home = () => {
     return (
         <div>
-            <LandingPage></LandingPage>
             <Navigation></Navigation>
+            <LandingPage></LandingPage>
             <Banner></Banner>
             <Services></Services>
             <Skills></Skills>

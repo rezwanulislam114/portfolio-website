@@ -5,16 +5,54 @@
     margin: 20px auto;
     overflow: hidden;
     width: 380px;
+    height: 240px;
+    position: relative;
 }
-.project img {
+.project-img {
     width: 100%;
+    height: 100%;
     display: block;
     margin: auto;
-    transition: .3s;
+    transition: .5s;
     transform: scale(1.1);
+    position: absolute;
+    z-index: 2;
+}
+.project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0,0,0,.85);
+    transition: .5s;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project:hover .project-info {
+    height: 100%;
+    z-index: 3;
 }
 .project:hover img {
     transform: scale(1.3);
+}
+.project-link {
+    border-top: 2px solid gray;
+    margin-top: 10px;
+}
+.project-link a {
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 8px;
+}
+.project-link a:hover {
+    text-decoration: underline;
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {

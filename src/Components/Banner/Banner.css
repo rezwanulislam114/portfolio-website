@@ -18,6 +18,7 @@
 .btn-regular {
     border: 2px solid rgb(255, 255, 255);
     background: transparent;
+    color: white;
     padding: 7px 10px;
     border-radius: 5px;
     transition: .3s;
